@@ -81,7 +81,7 @@ export class Modal extends React.Component {
               <Modal.Header>
                 <Elem name="title">{this.state.title}</Elem>
                 {this.props.allowClose !== false  && (
-                  <Elem tag={Button} name="close" type="text" icon={<Icon size="18" color="#0099FF" icon={FaTimes}/>}/>
+                  <Elem tag={Button} name="close" type="text" icon={<Icon size="18" color="#4e32bc" icon={FaTimes}/>}/>
                 )}
               </Modal.Header>
             )}

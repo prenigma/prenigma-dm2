@@ -34,7 +34,7 @@ export const FiltersButton = buttonInjector(observer(
         {isFF(FF_LOPS_E_10) ? (
           <FaChevronDown size="12" style={{ marginLeft: 8, marginRight: -7 }} color="#1F1F1F" />
         ) : (
-          <FaAngleDown size="16" style={{ marginLeft: 4 }} color="#0077FF" />
+          <FaAngleDown size="16" style={{ marginLeft: 4 }} color="#4e32bc" />
         )}
       </Button>
     );
